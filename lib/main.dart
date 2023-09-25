@@ -16,14 +16,14 @@ class MyModule extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text('This is Module 1'),
+              const Text('This is Module 123'),
               ElevatedButton(
                 onPressed: () {
                   // You can put your action here
                   // ignore: avoid_print
-                  print('Button Pressed');
+                  print('Button Pressed 777');
                 },
-                child: const Text('Press Me'),
+                child: const Text('Press Me 111'),
               ),
             ],
           ),
