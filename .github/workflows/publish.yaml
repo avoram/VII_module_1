@@ -17,6 +17,6 @@ jobs:
       uses: dart-lang/setup-dart@v1 
 
     - name: Publish to GitHub Packages
-      run: dart pub publish --server=https://pub.pkg.github.com/avoram --dry-run
+      run: flutter pub publish --server=https://pub.pkg.github.com/avoram --dry-run
       env:
         PUB_TOKEN: ${{secrets.GHP_TOKEN}}
