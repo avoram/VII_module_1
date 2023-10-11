@@ -2,7 +2,7 @@ name: seven_module_1
 description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: https://pub.pkg.github.com/avoram
+publish_to: https://pub.pkg.github.com/avoram/seven_module_1
 library: main
 repository: https://github.com/avoram/seven_module_1
 
