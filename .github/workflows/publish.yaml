@@ -20,6 +20,6 @@ jobs:
       uses: dart-lang/setup-dart@v1 
 
     - name: Publish to GitHub Packages
-      run: flutter pub publish --server=https://pub.pkg.github.com/avoram
+      run: flutter pub publish --server=https://pub.pkg.github.com/avoram --force
       env:
         PUB_TOKEN: ${{secrets.GHP_TOKEN}}
