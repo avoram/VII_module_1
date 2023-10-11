@@ -14,7 +14,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Set up Dart
-      uses: google/dart-setup@v1 
+      uses: dart-lang/setup-dart@v1 
 
     - name: Publish to GitHub Packages
       run: dart pub publish --server=https://pub.pkg.github.com/avoram --dry-run
